@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1e293b;
+}
+
+.greeting-heading {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 42px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .greeting-heading {
+    font-size: 65px;
+  }
+}
+.greeting-info {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .greeting-info {
+    font-size: 32px;
+  }
+}
+
+.button {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  background-color: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  border: 0px;
+  cursor: pointer;
+}
